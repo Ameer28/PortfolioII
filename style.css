@@ -25,13 +25,14 @@ body {
 }
 
 .heroText {
-  margin: 15em 5rem;
+  margin: 15rem 5rem;
   color: #333333;
 }
 
 .text-right {
   padding: 3rem;
-  margin-right: 4rem;
+  margin-right: 8rem;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
