@@ -35,4 +35,50 @@ body {
   margin-bottom: 0;
 }
 
+.academyImg {
+  padding: 0 !important;
+}
+
+.academyImg img {
+  width: 350px;
+  height: 600px;
+  object-fit: cover;
+  object-position: 20% 0%;
+}
+
+.evietImg {
+  padding: 0 !important;
+}
+
+.evietImg img {
+  width: 730px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 20% 0%;
+}
+
+.lipsImg img {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 20% 0%;
+}
+
+.projects {
+  margin: 5rem 0;
+}
+
+.contact {
+  padding: 5rem 0;
+}
+
+.profileIcons {
+  position: relative;
+  left: 93.5rem;
+}
+
+.copyright {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
