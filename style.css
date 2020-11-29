@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -64,6 +68,13 @@ body {
   object-position: 20% 0%;
 }
 
+.techImg img {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 20% 0%;
+}
+
 .projects {
   margin: 5rem 0;
 }
@@ -77,8 +88,84 @@ body {
   left: 93.5rem;
 }
 
+.github:hover {
+  background-color: #333333;
+  filter: grayscale(1) invert(1);
+}
+
+.linkedin:hover {
+  background-color: #333333;
+  filter: grayscale(1) invert(1);
+}
+
 .copyright {
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    display: inline;
+  }
+
+  .heroText {
+    margin: 4rem 5rem;
+  }
+
+  .text-right {
+    margin: 0;
+    padding: 4rem 25rem 2rem 0;
+  }
+
+  .container {
+    padding: 2rem;
+  }
+
+  .academyImg {
+    height: 300px;
+  }
+  .academyImg img {
+    width: 540px;
+    height: 500px;
+    padding: 3rem;
+  }
+
+  .evietImg img {
+    width: 540px;
+    margin: 10rem 0 1rem 0;
+    padding: 2rem;
+    height: 500px;
+  }
+
+  .techImg img {
+    width: 540px;
+    margin-top: 0 !important;
+    padding-left: 3rem;
+  }
+
+  .projectRows {
+    display: block !important;
+  }
+
+  .lipsImg {
+    width: 360px !important;
+  }
+  .lipsImg img {
+    margin-top: 0 !important;
+  }
+
+  .contact {
+    padding-top: 0;
+  }
+
+  .projects {
+    margin-bottom: 2rem;
+  }
+
+  .profileIcons {
+    position: relative;
+    left: 1px;
+    padding: 4rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
