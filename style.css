@@ -356,20 +356,21 @@ body {
 }
 @media only screen and (min-width: 1080px) {
   .jumboImg img {
-    width: 800px;
+    width: 1200px;
   }
 
   .heroText {
     margin: 0;
-    padding: 12rem 2rem 10rem 2rem;
+    padding: 14rem 2rem 10rem 5rem;
   }
   .heroText h1 {
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .text-right {
     margin-right: 0;
-    padding-right: 4.5rem;
+    padding-right: 25rem;
+    font-size: 42px;
   }
 
   .projects {
@@ -377,50 +378,28 @@ body {
   }
 
   .academyImg img {
-    width: 320px;
+    width: 375px;
   }
 
   .evietImg img {
-    width: 620px;
+    width: 740px;
   }
 
+  .lipsImg {
+    padding-right: 0;
+  }
   .lipsImg img {
-    width: 310px;
+    width: 375px;
   }
 
   .techImg img {
-    width: 300px;
+    width: 360px;
   }
 
   .profileIcons {
     position: relative;
     left: 5px;
-    padding: 1rem 2rem 1rem 48rem;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .text-right {
-    padding-right: 5rem;
-  }
-
-  .academyImg img {
-    width: 375px;
-  }
-
-  .evietImg img {
-    width: 753px;
-  }
-
-  .lipsImg img {
-    width: 375px;
-  }
-
-  .techImg img {
-    width: 375px;
-  }
-
-  .profileIcons {
-    padding-left: 55rem;
+    padding: 1rem 2rem 1rem 80rem;
   }
 }
 
