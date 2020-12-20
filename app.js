@@ -10,5 +10,8 @@ const icons = document.querySelector(".profileIcons");
 
 const tl = gsap.timeline({defaults: {ease: "power1.out"}});
 
-// tl.fromTo(navbar, { opacity: 0}, { opacity: 1, duration: 2});
-tl.to(navbar, {duration: 0.5, y: 50});
+tl.fromTo(navbar, { opacity: 0}, { opacity: 1, duration: 3});
+tl.to(navbar, {y: "0%", duration: 1, stagger: 0.25});
+
+tl.fromTo(hero, { opacity: 0}, { opacity: 1, duration: 1});
+tl.to(hero, {y: "0%", duration: 1, stagger: 0.25});
