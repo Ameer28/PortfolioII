@@ -16,5 +16,8 @@ tl.to(navbar, {y: "0%", duration: 1, stagger: 0.25});
 tl.fromTo(hero, { opacity: 0}, { opacity: 1, duration: 1});
 tl.to(hero, {y: "0%", duration: 0.25, stagger: 1});
 
-tl.fromTo(jumbotron, { opacity: 0}, { opacity: 1, duration: 1});
+tl.fromTo(jumbotron, { opacity: 0}, { opacity: 1, duration: 1}); 
 tl.to(jumbotron, {y: "0%", duration: 1, stagger: 0.25});
+
+tl.fromTo(headers, { opacity: 0}, { opacity: 1, duration: 1}); 
+tl.to(headers, {y: "0%", duration: 1, stagger: 0.25});
