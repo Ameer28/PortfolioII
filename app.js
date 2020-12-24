@@ -10,13 +10,13 @@ const icons = document.querySelector(".profileIcons");
 
 const tl = gsap.timeline({defaults: {ease: "power1.out"}});
 
-tl.fromTo(navbar, { opacity: 0}, { opacity: 1, duration: 1});
-tl.to(navbar, {y: "0%", duration: 1, stagger: 0.25});
+tl.fromTo(navbar, { opacity: 0}, { opacity: 1, duration: 0.1});
+tl.to(navbar, {y: "5%", duration: 0.15, stagger: 0.25});
 
-tl.to(hero, { duration: 0.75, x: 700});
+tl.to(hero, { duration: 0.75, x: 0});
 
-tl.fromTo(jumbotron, { opacity: 0}, { opacity: 1, duration: 0.75, x: -1200}); 
-tl.to(jumbotron, {y: "0%", duration: 0.75, stagger: 0.25});
+tl.fromTo(jumbotron, { opacity: 0}, { opacity: 1, duration: 0.75, x: 25}); 
+tl.to(jumbotron, {y: "0%", duration: 0.5});
 
 tl.fromTo(headers, { opacity: 0}, { opacity: 1, duration: 1}); 
 tl.to(headers, {y: "0%", duration: 1, stagger: 0.25});
