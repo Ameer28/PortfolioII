@@ -18,4 +18,8 @@ tl.to(hero, { duration: 0.75, x: 0});
 tl.fromTo(jumbotron, { opacity: 0}, { opacity: 1, duration: 0.75, x: 25}); 
 tl.to(jumbotron, {y: "0%", duration: 0.5});
 
-gsap.to(navbar, {})
+gsap.to(navbar, { opacity: 0}, { opacity: 1, duration: 3});
+gsap.fromTo(navbar, { opacity: 0}, { opacity: 1});
+
+gsap.from(hero, {y: "0%", duration: 0.5});
+gsap.to(hero, { opacity: 0}, { opacity: 1, duration: 0.75}); 
